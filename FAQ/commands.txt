@@ -1,0 +1,14 @@
+*****
+django-admin startproject django_orm
+
+python manage.py startapp hr
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+запись зависимостей
+pip freeze > requirements.txt
+
+установка зависимостей
+pip install -r requirements.txt

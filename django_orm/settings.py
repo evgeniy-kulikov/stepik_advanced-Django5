@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     "hr.apps.HrConfig",
+
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
